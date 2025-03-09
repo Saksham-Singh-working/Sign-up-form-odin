@@ -1,4 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Roboto;
+}
+@font-face{
+    font-family: Roboto;
+    src:url(./fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
 body{
-    background-image: url(./pics/jj-ying-7JX0-bfiuxQ-unsplash.jpg);
+    background-image: url(./pics/tanaphong-toochinda-EeQyB_Qq6og-unsplash.jpg   );   
+}
+.text-container{
+    width: 60vw;
+    height: 100vh;
+    background-color: rgb(229, 235, 236);
+    float:right;
+    padding-top:80px;
+    padding-left:30px;
+}
+.text-container:first-child{
+    font-size:20px;
+    font-weight: 600;
     
 }
