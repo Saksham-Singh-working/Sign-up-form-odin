@@ -10,16 +10,65 @@
 body{
     background-image: url(./pics/tanaphong-toochinda-EeQyB_Qq6og-unsplash.jpg   );   
 }
-.text-container{
+.big-container{
     width: 60vw;
     height: 100vh;
     background-color: rgb(229, 235, 236);
     float:right;
-    padding-top:80px;
-    padding-left:30px;
 }
 .text-container:first-child{
     font-size:20px;
     font-weight: 600;
+    padding-top:80px;
+    padding-left:30px;
     
+}
+form{
+    margin-top:50px;
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    box-shadow: 5px 5px 30px black;
+    padding: 20px;
+}
+form > p{
+    font-size: large;
+    font-weight: 600;
+}
+.form-controls{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:20px;
+}
+input{
+    width: 200px;
+    height: 20px;
+}
+label{
+    font-size: small;
+    font-weight: 500;
+    color: grey;
+}
+input:invalid{
+    border-color: red;
+}
+input:valid{
+    border-color: green ;
+}
+form:invalid input {
+    border-color: grey;
+}
+form.submitted input:invalid {
+    border-color: red;
+}
+button{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    color:white;
+    background-color: rgba(12, 102, 12, 0.719);
+    border:none;
+    border-radius: 20px;
 }
